@@ -12,6 +12,7 @@ import Model.*;
  */
 public class StandardView implements Constants{
     public StandardView(){
+        System.out.println("asdas");
         Dog dog = new Dog("a",5,DOG_FOOD,ALIVE);
         Cat cat = new Cat("b",3,CAT_FOOD,ALIVE);
         Horse horse = new Horse("c",3,HORSE_FOOD,DEAD);
